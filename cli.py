@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from model import Base, Customer, Product, Sale, Inventory, InventoryAlert, User, OrderDetail
+from models import Base, Customer, Product, Sale, Inventory, InventoryAlert, User, OrderDetail
 
 # Define the base class for declarative models
 Base = declarative_base()

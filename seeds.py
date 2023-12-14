@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from model import Base, Customer, Product, Sale, Inventory, InventoryAlert, User, OrderDetail
+from models import Base, Customer, Product, Sale, Inventory, InventoryAlert, User, OrderDetail
 from datetime import date
 
 # database connection URL
