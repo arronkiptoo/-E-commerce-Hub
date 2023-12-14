@@ -125,7 +125,7 @@ The E-commerce-Hub CLI project utilizes an SQLite database to manage information
         role: Role of the user (admin or user).
         customer_id (Foreign Key referencing customers.customer_id): Reference to the customer associated with the user.
     
-   Order Details (order_details table):
+    Order Details (order_details table):
         order_detail_id (Primary Key): Unique identifier for each order detail.
         order_id (Foreign Key referencing sales.order_id): Reference to the sales order.
         product_id (Foreign Key referencing products.product_id): Reference to the product in the order.
